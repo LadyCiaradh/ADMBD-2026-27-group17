@@ -4,7 +4,7 @@
 **Institution:** ISEP  
 **Course:** ADMBD
 **Project:** Ride-Hailing Platform (TVDE)  
-**Repository:** [ADMBD_1221715_1131504](https://github.com/LadyCiaradh/ADMBD_1221715_1131504)
+**Repository:** [ADMBD-2026-27-group17](https://github.com/LadyCiaradh/ADMBD-2026-27-group17)
 
 ## 1. Project Overview
 
