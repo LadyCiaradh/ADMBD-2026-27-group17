@@ -346,8 +346,6 @@ Example document:
 
 ### 3.3.2 Trip Events
 
-### 3.3.2 Trip Events
-
 The `trip_events` collection represents operational events generated during the lifecycle of a trip.
 
 Common fields include:
