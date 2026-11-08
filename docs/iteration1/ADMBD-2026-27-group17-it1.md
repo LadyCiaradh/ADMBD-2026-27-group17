@@ -392,20 +392,16 @@ The segregation is made considering the attributes of data and workload instead 
 ### 2.5.1 MySQL
 An alternative relational DBMS that was considered was MySQL. This is a mature relational DBMS that supports transactions, integrity constraints, indexing, and framework applications. Therefore, MySQL would have been able to provide all the necessary relational services of the proposed platform.
 
-PostgreSQL was chosen for this project since the team plans to utilize the excellent relational services and other services within the database that will work perfectly well with the data model intended to be used in this project.
+PostgreSQL was chosen for this project because it provides the relational functionality required by the proposed data model. In addition, some members of the team already had experience with this technology, which was a practical reason for choosing it over other suitable alternatives, such as MySQL. This familiarity is expected to reduce the learning effort required and facilitate database configuration, development and future maintenance.
 
 This choice of database management system does not mean that MySQL could not be suitable for this project; on the contrary, PostgreSQL was found suitable for the architecture designed by the team.
 
 ### 2.5.2 Redis
-Redis was taken into consideration for fast temporary data such as authentication sessions, caching or temporary information about
-the availability of drivers for some other short-lived application state.
+Redis was taken into consideration for fast temporary data such as authentication sessions, caching or temporary information about the availability of drivers for some other short-lived application state.
 
-Due to its key-value and in-memory structure along with expiration functions, Redis seems to be more suitable for data which
-needs to be accessed very quickly and doesn’t have to be persistent.
+Due to its key-value and in-memory structure along with expiration functions, Redis seems to be more suitable for data which needs to be accessed very quickly and doesn’t have to be persistent.
 
-The project team has opted not to use Redis among the major databases for the initial architectural design, since PostgreSQL and
-MongoDB meet all the mandatory conditions of relational and non-relational databases accordingly, leaving the development scope
-manageable.
+The project team has opted not to use Redis among the major databases for the initial architectural design, since PostgreSQL and MongoDB meet all the mandatory conditions of relational and non-relational databases accordingly, leaving the development scope manageable.
 
 Redis can be considered as a further step if there is a need for it proven by the testing process.
 
@@ -1772,3 +1768,33 @@ The usage of ChatGPT does not substitute the team's liability concerning the des
 The full responsibility for the quality, safety, correctness, consistency and technical adequacy of all the artefacts submitted by the team falls upon the team members, whether some of the artefacts have been generated or improved using GenAI technologies.
 
 ChatGPT was used as an additional source. The ultimate decision-making process concerning the project architecture and technical solutions was made by the team itself.
+
+# 8. Project Repository and Group Self-Evaluation
+
+## 8.1 Project Identification
+
+- **Course:** Database Administration (ADMBD)
+- **Academic year:** 2026/2027
+- **Group:** 17
+- **Project:** Ride-Hailing Platform (TVDE)
+- **Submission:** Iteration 1 — Specification and Planning
+
+## 8.2 Project Repository
+
+**URL:** [https://github.com/LadyCiaradh/ADMBD-2026-27-group17](https://github.com/LadyCiaradh/ADMBD-2026-27-group17)
+
+The editable project documentation is available in Markdown format in the `docs/iteration1/` directory. Diagrams and other supporting technical artefacts are stored in `docs/iteration1/diagrams/`.
+
+## 8.3 Group Self-Evaluation
+
+| Student number | Name | Rating — select one option from the scale | Tasks the student was responsible for |
+|---|---|---|---|
+| 1221715 | Jorge Cruz | Average | Database technology comparison and selection |
+| 1131504 | Joana Soares | Average | Database model specification |
+| 1201806 | João Veríssimo | Average | Deployment architecture analysis |
+| 1250522 | João Fonseca | Average | Backup and recovery policy specification |
+| 1211622 | Rafael Fonseca | Average | Scalability and elasticity planning |
+
+The tasks listed above indicate each member's main area of responsibility. However, all parts of Iteration 1 were developed collaboratively through team brainstorming sessions, discussion of alternatives and joint review of the documentation. All members contributed to the requirements analysis and the decisions presented in the report, sharing responsibility for the final work.
+
+

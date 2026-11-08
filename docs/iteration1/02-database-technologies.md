@@ -129,20 +129,16 @@ The segregation is made considering the attributes of data and workload instead 
 ### 2.5.1 MySQL
 An alternative relational DBMS that was considered was MySQL. This is a mature relational DBMS that supports transactions, integrity constraints, indexing, and framework applications. Therefore, MySQL would have been able to provide all the necessary relational services of the proposed platform.
 
-PostgreSQL was chosen for this project since the team plans to utilize the excellent relational services and other services within the database that will work perfectly well with the data model intended to be used in this project.
+PostgreSQL was chosen for this project because it provides the relational functionality required by the proposed data model. In addition, some members of the team already had experience with this technology, which was a practical reason for choosing it over other suitable alternatives, such as MySQL. This familiarity is expected to reduce the learning effort required and facilitate database configuration, development and future maintenance.
 
 This choice of database management system does not mean that MySQL could not be suitable for this project; on the contrary, PostgreSQL was found suitable for the architecture designed by the team.
 
 ### 2.5.2 Redis
-Redis was taken into consideration for fast temporary data such as authentication sessions, caching or temporary information about
-the availability of drivers for some other short-lived application state.
+Redis was taken into consideration for fast temporary data such as authentication sessions, caching or temporary information about the availability of drivers for some other short-lived application state.
 
-Due to its key-value and in-memory structure along with expiration functions, Redis seems to be more suitable for data which
-needs to be accessed very quickly and doesn’t have to be persistent.
+Due to its key-value and in-memory structure along with expiration functions, Redis seems to be more suitable for data which needs to be accessed very quickly and doesn’t have to be persistent.
 
-The project team has opted not to use Redis among the major databases for the initial architectural design, since PostgreSQL and
-MongoDB meet all the mandatory conditions of relational and non-relational databases accordingly, leaving the development scope
-manageable.
+The project team has opted not to use Redis among the major databases for the initial architectural design, since PostgreSQL and MongoDB meet all the mandatory conditions of relational and non-relational databases accordingly, leaving the development scope manageable.
 
 Redis can be considered as a further step if there is a need for it proven by the testing process.
 

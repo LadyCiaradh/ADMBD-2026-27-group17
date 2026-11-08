@@ -14,6 +14,7 @@ ADMBD project.
 5. [Backup Policy Specification](05-backup-policy.md)
 6. [Scalability and Elasticity Plan](06-scalability-elasticity.md)
 7. [Use of Generative AI Tools](07-generative-ai.md)
+8. [Project Repository and Group Self-Evaluation](08-self-assessment.md)
 
 ## Diagrams
 
