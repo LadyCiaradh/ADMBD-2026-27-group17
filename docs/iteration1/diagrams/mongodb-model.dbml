@@ -22,10 +22,7 @@ Table driver_locations {
 
   driver_id bigint [not null, note: 'Logical reference to PostgreSQL Driver']
 
-  location_type varchar [not null, note: 'GeoJSON type: Point']
-
-  longitude decimal [not null]
-  latitude decimal [not null]
+  location json [not null, note: 'GeoJSON Point: type = "Point"; coordinates = [longitude, latitude]']
 
   availability varchar [not null, note: 'AVAILABLE, BUSY or OFFLINE']
 

@@ -59,6 +59,9 @@ ADMBD_1221715_1131504/
         ├── 05-backup-policy.md
         ├── 06-scalability-elasticity.md
         ├── 07-generative-ai.md
+        ├── 08-self-assessment.md
+        ├── ADMBD-2026-27-group17-it1.md
+        ├── ADMBD-2026-27-group17-it1.pdf
         └── diagrams/
 ```
 
@@ -75,6 +78,7 @@ The following documentation is currently available:
 5. [Backup Policy Specification](docs/iteration1/05-backup-policy.md)
 6. [Scalability and Elasticity Plan](docs/iteration1/06-scalability-elasticity.md)
 7. [Use of Generative AI Tools](docs/iteration1/07-generative-ai.md)
+8. [Project Repository and Group Self-Evaluation](docs/iteration1/08-self-assessment.md)
 
 Additional documentation:
 
